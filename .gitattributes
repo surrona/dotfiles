@@ -1,0 +1,9 @@
+# .gitattributes
+
+# Handle text automatically & ensure Unix line endings (LF).
+* text=auto eol=lf
+
+# Ensure code uses LF, just in case hehe xD. Future tooling may include scripts.
+*.js text eol=lf
+*.py text eol=lf
+*.sh text eol=lf

@@ -1,0 +1,13 @@
+# .gitignore
+
+*.key
+
+# Custom naming conventions for public and preshared (psk) keys.
+*.pub
+*.psk
+#
+
+*_rsa
+*.pem
+.env
+.ssh/id_*
